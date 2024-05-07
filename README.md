@@ -4,9 +4,5 @@ The painter's algorithm (also depth-sort algorithm and priority fill) is an algo
 
 The rendering is made in GDI+ using the FillPolygon function.\
 3D Projection are made using glm.
-```
-glPosition = projectionMatrix * viewMatrix * modelMatrix * vertexWorldPos;
-```
-
 
 <img src="img/sample.png">
